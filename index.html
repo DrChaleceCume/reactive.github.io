@@ -13,10 +13,11 @@
 		</style>
 	</head>
 	<body>
-		<audio id="player" autoplay controls>
-			<source src="./files/man.mp3" type="audio/mp3">
-		</audio>
-
+		<iframe src="./files/silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+		<audio id="player" preload="auto" autoplay loop>
+            <source src="./files/man.mp3" type="audio/mp3">
+    	</audio>
+		
 		<p>balls</p>
 		<a href="./about">more stuff</a>
 	</body>
