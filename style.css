@@ -1,0 +1,11 @@
+img {
+	position: absolute;
+	top: 25px;
+	left: 25px;
+}
+.layer1 {
+	z-index: 1;
+}
+.layer2 {
+	z-index: 3;
+}
