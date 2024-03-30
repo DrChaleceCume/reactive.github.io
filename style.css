@@ -1,9 +1,12 @@
 .layer1 {
+	position: absolute;
+	top: 25px;
+	left: 25px;
 	z-index: 1;
 }
 .layer2 {
 	position: absolute;
-	top: 0px;
-	left: 0px;
+	top: 25px;
+	left: 25px;
 	z-index: 3;
 }
