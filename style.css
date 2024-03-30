@@ -1,12 +1,29 @@
-.layer1 {
-	position: absolute;
-	top: 25px;
-	left: 25px;
-	z-index: 1;
+.image-container {
+	background-image: url("./assets/bg.png");
+  	background-size: cover;
+	position: relative;
+	height: 400px;
 }
-.layer2 {
+
+@keyframes example {
+	from {background-color: white;}
+	to {background-color: black;}
+}
+
+.cut {
+	margin: 0 auto;
+	padding: 10px;
+	width: 50%;
 	position: absolute;
-	top: 25px;
-	left: 25px;
-	z-index: 3;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	background-color: white;
+	color: black;
+	mix-blend-mode: screen;
+	animation-name: example;
+  	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
 }
