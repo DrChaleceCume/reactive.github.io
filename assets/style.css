@@ -1,5 +1,5 @@
 .image-container {
-	background-image: url("./assets/bg.png");
+	background-image: url("./bg.png");
   	background-size: cover;
 	position: relative;
 	height: 400px;
